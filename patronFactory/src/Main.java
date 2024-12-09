@@ -4,7 +4,5 @@ public class Main {
         PagoFactory pagoFactory = new PagoFactory();
         Pago pago = pagoFactory.obtenerPago(TipoDePago.BITCOIN);
         pago.crearPago();
-
-
     }
 }
