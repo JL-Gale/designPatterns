@@ -17,6 +17,5 @@ public class BlindajeDecorador extends CuentaDecorador{
 
     private void agregarBlindaje(Cuenta c) {
         System.out.println("Se agrego blindaje a la cuenta del cliente: "+c.getCliente());
-
     }
 }
